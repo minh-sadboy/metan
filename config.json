@@ -1,0 +1,127 @@
+[
+    {
+        "default": {
+            "firstScene": "1",
+            "autoLoad": true,
+            "showControls": false,
+            "compass": true
+        },
+        "scenes": {
+            "0": {
+                "pitch": -4.008299683366502,
+                "yaw": -178.006451816324,
+                "type": "equirectangular",
+                "panorama": "/imgtour/imgtour0.jpg",
+                "northOffset": 180,
+                "hotSpots": [
+                    {
+                        "pitch": -14.868651657706053,
+                        "yaw": 177.08161679180898,
+                        "type": "scene",
+                        "sceneId": "1",
+                        "cssClass": "custom-hotspot",
+                        "div": {}
+                    },
+                    {
+                        "pitch": -7.099703126170397,
+                        "yaw": 177.80608430935632,
+                        "type": "scene",
+                        "sceneId": "2",
+                        "cssClass": "custom-hotspot",
+                        "div": {}
+                    }
+                ]
+            },
+            "1": {
+                "pitch": 0,
+                "yaw": 0,
+                "type": "equirectangular",
+                "panorama": "/imgtour/imgtour1.jpg",
+                "northOffset": 0,
+                "hotSpots": [
+                    {
+                        "pitch": -11.284876395494901,
+                        "yaw": 178.03416389824633,
+                        "type": "scene",
+                        "sceneId": "0",
+                        "cssClass": "custom-hotspot"
+                    },
+                    {
+                        "pitch": -15.478593051139244,
+                        "yaw": -3.102422464100073,
+                        "type": "scene",
+                        "sceneId": "2",
+                        "cssClass": "custom-hotspot"
+                    }
+                ]
+            },
+            "2": {
+                "pitch": 0,
+                "yaw": 0,
+                "type": "equirectangular",
+                "panorama": "/imgtour/imgtour2.jpg",
+                "northOffset": 0,
+                "hotSpots": [
+                    {
+                        "pitch": -15.959310663071292,
+                        "yaw": 179.995743751031,
+                        "type": "scene",
+                        "sceneId": "1",
+                        "cssClass": "custom-hotspot"
+                    },
+                    {
+                        "pitch": -7.032050867890963,
+                        "yaw": -179.8563719814897,
+                        "type": "scene",
+                        "sceneId": "0",
+                        "cssClass": "custom-hotspot"
+                    }
+                ]
+            }
+        }
+    },
+    [
+        {
+            "pitch": -14.868651657706053,
+            "yaw": 177.08161679180898,
+            "sceneId": "1",
+            "scene": 0,
+            "rotate": 60
+        },
+        {
+            "pitch": -7.099703126170397,
+            "yaw": 177.80608430935632,
+            "sceneId": "2",
+            "scene": 0,
+            "rotate": 60
+        },
+        {
+            "pitch": -11.284876395494901,
+            "yaw": 178.03416389824633,
+            "sceneId": "0",
+            "scene": "1",
+            "rotate": 60
+        },
+        {
+            "pitch": -15.478593051139244,
+            "yaw": -3.102422464100073,
+            "sceneId": "2",
+            "scene": "1",
+            "rotate": 60
+        },
+        {
+            "pitch": -15.959310663071292,
+            "yaw": 179.995743751031,
+            "sceneId": "1",
+            "scene": "2",
+            "rotate": 60
+        },
+        {
+            "pitch": -7.032050867890963,
+            "yaw": -179.8563719814897,
+            "sceneId": "0",
+            "scene": "2",
+            "rotate": 68
+        }
+    ]
+]
